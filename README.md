@@ -4,7 +4,12 @@
 
 **Android 9+ da Google ilovalarga qo'ng'iroq ovozini yozishni taqiqlagan.**
 Lekin telefonning **o'z** yozib olish funksiyasini yoqib olsak — ikkala tomon ovozi
-toza yoziladi. Quyida buni **Samsung** va **Xiaomi** da qanday qilish ko'rsatilgan.
+toza yoziladi. Quyida buni **Samsung**, **Xiaomi** va **Huawei/Honor** da
+qanday qilish ko'rsatilgan.
+
+![Samsung](https://img.shields.io/badge/Samsung-SamFW_Tool-1428A0?style=flat-square)
+![Xiaomi](https://img.shields.io/badge/Xiaomi-Dialer_o'rnatish-FF6900?style=flat-square)
+![Huawei](https://img.shields.io/badge/Huawei_/_Honor-APK_modul-CF0A2C?style=flat-square)
 
 </div>
 
@@ -16,6 +21,7 @@ toza yoziladi. Quyida buni **Samsung** va **Xiaomi** da qanday qilish ko'rsatilg
 - [1-qadam: avval tekshiring](#-1-qadam-avval-tekshiring)
 - [🔵 Samsung uchun](#-samsung-uchun)
 - [🟠 Xiaomi / Redmi / POCO uchun](#-xiaomi--redmi--poco-uchun)
+- [🔴 Huawei / Honor uchun](#-huawei--honor-uchun)
 - [✅ Yoqilganini qanday bilamiz?](#-yoqilganini-qanday-bilamiz)
 - [❓ Muammolar va yechimlar](#-muammolar-va-yechimlar)
 
@@ -231,6 +237,135 @@ orqali maxsus **Dialer (Telefon) ilovasi** o'rnatiladi va u yozib olishni ochadi
 
 ---
 
+# 🔴 Huawei / Honor uchun
+
+Huawei va Honor telefonlarida (Android 9 dan boshlab) yozib olish moduli
+**o'chirilgan**, lekin uni **qayta o'rnatib** yoqish mumkin. Kompyuter kerak emas —
+hammasi telefonning o'zida bajariladi.
+
+> [!CAUTION]
+> **Faqat o'z versiyangizga mos modulni o'rnating!**
+> Noto'g'ri modul yo **o'rnatilmaydi**, yoki o'rnatiladi-yu — telefon
+> **noto'g'ri ishlay boshlaydi**. Xato o'rnatilgan bo'lsa: avval uni
+> **o'chirib tashlang**, keyin to'g'ri versiyasini o'rnating.
+
+### 1️⃣ Avval versiyangizni aniqlang
+
+**Sozlamalar** → **Telefon haqida** bo'limidan **ikkita** raqamni yozib oling:
+
+| Nima qidiriladi | Qayerda |
+|:--|:--|
+| **Android versiyasi** | *Android versiyasi* qatori |
+| **EMUI** (Huawei) yoki **Magic UI** (Honor) versiyasi | *EMUI versiyasi* / *Magic UI versiyasi* qatori |
+
+> 💡 Huawei da qobiq **EMUI**, Honor da esa **Magic UI** deb ataladi —
+> ular bir-biriga mos keladi (EMUI 11 ≈ Magic UI 4.0).
+
+### 2️⃣ Modulni yuklab oling
+
+<div align="center">
+
+| Versiyangiz | Yuklab olish |
+|:--|:--:|
+| **EMUI 10 / 10.1** *(Magic UI 3.0–3.1)* | **[⬇️ CallRecording 10.1.0](https://www.mediafire.com/file/jfsfu7gf958a32r/CallRecording_10.1.0.apk)** |
+| **EMUI 11** *(Magic UI 4.0)* | **[⬇️ CallRecorder EMUI 11](https://www.mediafire.com/file/6ijyld7yz2g7koz/Huawei+CallRecorder+EMUI+11.apk)** |
+| **EMUI 12** — 1-variant | **[⬇️ HwCallRecorder 12.0.0.109](https://www.mediafire.com/file/nugzvusdb64s1bb/HwCallRecorder+12.0.0.109_HuaweiAilesi.apk/file)** |
+| **EMUI 12** — 2-variant | **[⬇️ CallRecorder EMUI 12](https://www.mediafire.com/file/44jr1hfb3zwszfc/CallRecorder+EMUI+12.apk/file)** |
+| **EMUI 13 / 14** | **[⬇️ EMUI13 CallRecorder](https://www.mediafire.com/file/c5zlcdpb6mafqen/EMUI13_CallRecorder.apk/file)** |
+
+</div>
+
+> [!TIP]
+> **EMUI 12 uchun ikkita variant bor.** Birinchisi o'rnatilmasa yoki
+> ishlamasa — uni o'chirib, **ikkinchisini** sinab ko'ring.
+> **EMUI 14** uchun alohida modul yo'q — EMUI 13 niki sinaladi.
+
+> [!NOTE]
+> **Android 9**, **Honor Android 12** va **Honor Android 13/14** uchun modullar
+> alohida bo'ladi — ular yuqoridagi ro'yxatda yo'q. Kerak bo'lsa
+> qo'llab-quvvatlash xizmatidan so'rang.
+
+### 3️⃣ O'rnating
+
+<details open>
+<summary><b>O'rnatish bosqichlari</b></summary>
+
+<br>
+
+1. Havoladan **APK faylni telefonga** yuklab oling
+2. **Fayllar** ilovasidan yuklangan faylni toping va **bosing**
+3. *"Noma'lum manbalardan o'rnatishga ruxsat berilmagan"* chiqsa —
+   **Sozlamalar** ga o'ting va brauzer/fayl menejeriga **ruxsat bering**
+4. **O'rnatish** tugmasini bosing va tugashini kuting
+
+</details>
+
+### 4️⃣ ⚠️ Ruxsatlarni bering — BU QADAM SHART
+
+> [!IMPORTANT]
+> Modul o'rnatilgani bilan **ishlamaydi**, agar unga ruxsatlar berilmasa!
+> Bu eng ko'p o'tkazib yuboriladigan qadam.
+
+1. **Sozlamalar** → **Ilovalar** → **Ilovalar** ro'yxati
+2. Ro'yxatdan **`Recorder`** (yoki *Qo'ng'iroqlarni yozib olish* / *Запись звонков*) ni toping
+3. Uni bosing → **Ruxsatlar** (*Права*)
+4. **Berilmagan barcha ruxsatlarni yoqing** ✅ (mikrofon, xotira, telefon, kontaktlar)
+
+### 5️⃣ Yozib olishni yoqing
+
+1. Telefonni **qayta ishga tushiring**
+2. **Telefon** ilovasi → **Sozlamalar** → **Qo'ng'iroqlarni yozib olish**
+3. **"Avtomatik"** rejimini yoqing ✅
+
+> Honor Android 13 va undan yuqorisida bu menyu **bo'lmasligi** mumkin —
+> pastdagi eslatmaga qarang.
+
+---
+
+### 🟡 Honor egalari uchun alohida eslatmalar
+
+<details>
+<summary><b>Honor + Android 13 / 14</b></summary>
+
+<br>
+
+Ishlab chiqaruvchi **avtomatik** yozib olishni cheklab qo'ygan — yozuv har
+safar **tugma bilan qo'lda** boshlanadi. Modul o'rnatilgach ruxsatlarni
+berishni **unutmang** (4-qadam). Avtomatik rejimni ochish uchun qo'shimcha
+amallar kerak bo'ladi — qo'llab-quvvatlashga murojaat qiling.
+
+</details>
+
+<details>
+<summary><b>Honor + Android 15 — tavsiya etilmaydi ❌</b></summary>
+
+<br>
+
+- Avtomatik yozib olish **cheklangan** — faqat qo'lda tugma orqali
+- Aylanma yo'llar bor, lekin **barqaror ishlashi kafolatlanmaydi**
+- Telefon **suhbatdoshni yozuv haqida ogohlantirishi** mumkin va buni
+  **o'chirib bo'lmaydi**
+
+**Xulosa:** ish uchun Android 15 li Honor telefonini olmaslikni tavsiya qilamiz.
+
+**Avval tekshiring:** qo'ng'iroq qiling va ekranga qarang — **to'lqin
+belgisiga o'xshash yozib olish tugmasi** bormi? Bo'lsa, modul allaqachon
+o'rnatilgan, qayta o'rnatish shart emas.
+
+</details>
+
+<details>
+<summary><b>Android GO modellari</b></summary>
+
+<br>
+
+Android GO versiyasidagi Huawei/Honor telefonlari uchun yozib olish moduli
+**umuman mavjud emas**. Bunday telefonlarda faqat mikrofon yozuvi ishlaydi.
+
+</details>
+
+---
+
 ## ✅ Yoqilganini qanday bilamiz?
 
 1. Istalgan raqamga **sinov qo'ng'irog'i** qiling, **10–15 soniya** gaplashing
@@ -271,8 +406,26 @@ orqali maxsus **Dialer (Telefon) ilovasi** o'rnatiladi va u yozib olishni ochadi
 - Ilovaga **"Barcha fayllarga kirish"** (All files access) ruxsati berilganini
   tekshiring — ichki yozuvni **o'qish uchun shart**
 - Ilova sozlamalaridan **"Telefon yozuvlari papkasi"** ni qo'lda ko'rsating
-- Telefonda yozuv haqiqatan saqlanayotganini tekshiring: **Fayllar** ilovasi →
-  `Recordings` yoki `MIUI/sound_recorder/call_rec` papkasi
+- Telefonda yozuv haqiqatan saqlanayotganini tekshiring — **Fayllar** ilovasi:
+
+| Brend | Papka |
+|:--|:--|
+| Samsung | `Recordings/Call` |
+| Xiaomi | `MIUI/sound_recorder/call_rec` |
+| Huawei / Honor | `Sounds/CallRecord` |
+
+</details>
+
+<details>
+<summary><b>Huawei: modul o'rnatildi, lekin yozib olish ishlamayapti</b></summary>
+
+<br>
+
+1. **Ruxsatlarni tekshiring** — 90% hollarda sabab shu:
+   **Sozlamalar** → **Ilovalar** → `Recorder` → **Ruxsatlar** → hammasini yoqing
+2. **Versiya mos kelmagan bo'lishi mumkin** — EMUI versiyangizni qayta
+   tekshiring va boshqa variantni sinang (EMUI 12 uchun 2 ta fayl bor)
+3. Modulni **o'chirib**, telefonni qayta yoqib, **qaytadan** o'rnating
 
 </details>
 
